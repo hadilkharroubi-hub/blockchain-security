@@ -60,4 +60,23 @@ npx hardhat run scripts/deploy.js --network localhost
 npx hardhat test
 ```
 
-## 📊 Structure
+## Structure
+blockchain-security/
+├── contracts/         # Smart contracts Solidity
+├── scripts/           # Scripts de déploiement
+├── simulations/       # Simulations Python des attaques
+├── tests/             # Tests unitaires
+├── rapport/           # Rapport et captures d'écran
+└── presentation/      # Slides de présentation
+
+## Documentation
+
+- [Rapport PDF](rapport/rapport_template.md)
+- [Présentation](presentation/slides.md)
+- [Captures d'écran](rapport/captures/)
+
+##  Auteur
+
+Hadil Kharroubi - Projet ADEVA 2025-2026
+
+
