@@ -1,0 +1,44 @@
+{
+  "name": "blockchain-security",
+  "version": "1.0.0",
+  "description": "Sécurité Blockchain - Détection de Fissures",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "blockchain",
+    "security",
+    "iot",
+    "ethereum"
+  ],
+  "author": "Hadil Kharroubi",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "chai": "^4.3.10",
+    "hardhat": "^2.28.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.16.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadilkharroubi-hub/blockchain-security.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hadilkharroubi-hub/blockchain-security/issues"
+  },
+  "homepage": "https://github.com/hadilkharroubi-hub/blockchain-security#readme"
+}

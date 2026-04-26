@@ -1,0 +1,11 @@
+# Cryptographie
+ecdsa==0.18.0
+cryptography==42.0.0
+pycryptodome==3.20.0
+
+# Blockchain
+web3==6.15.1
+eth-account==0.11.0
+
+# Utilitaires
+colorama==0.4.6
