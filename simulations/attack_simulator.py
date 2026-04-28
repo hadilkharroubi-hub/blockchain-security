@@ -3,7 +3,6 @@ import time
 import json
 from datetime import datetime
 
-# Vérifier et installer les dépendances si nécessaire
 try:
     from ecdsa import SigningKey, SECP256k1
     from colorama import init, Fore, Back, Style

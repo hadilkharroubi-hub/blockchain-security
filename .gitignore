@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
